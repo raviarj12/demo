@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif; /* Basic font for the page */
+    background-color: #f0f8ff; /* Light blue background */
+    padding: 20px; /* Adds space around the page */
+  }
+  
+  h1 {
+    color: #2c3e50; /* Dark text color for the heading */
+  }
+  
+  .container {
+    width: 400px; /* Fixed width for the form container */
+    margin: 0 auto; /* Centers the container horizontally */
+    padding: 20px; /* Adds padding inside the container */
+    background-color: #ffffff; /* White background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow around the container */
+    border-radius: 8px; /* Rounded corners */
+  }
+  
+  select, input, button {
+    width: 100%; /* Ensures form elements span the full width of the container */
+    padding: 10px; /* Adds space inside each input field */
+    margin: 10px 0; /* Adds vertical spacing between elements */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 4px; /* Rounded corners */
+  }
+  
+  button {
+    background-color: #4CAF50; /* Green background color */
+    color: white; /* White text */
+    font-size: 16px; /* Larger font size for better readability */
+    cursor: pointer; /* Changes the cursor to a hand when hovering over the button */
+  }
+  
+  button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
+  .output {
+    margin-top: 20px; /* Adds space between the result and the form */
+    font-size: 18px; /* Increases the font size of the result */
+  }
+  

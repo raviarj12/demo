@@ -1,0 +1,32 @@
+li<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Agency Booking</title>
+    <link rel="stylesheet" href="./style.css"></link>
+    </head>
+<body>
+    <label for="destination">Choose a Destination:</label>
+<select id="destination">
+  <option value="paris">Paris - $500</option>
+  <option value="tokyo">Tokyo - $800</option>
+  <option value="newyork">New York - $600</option>
+  <option value="london">London - $450</option>
+  <option value="Usa">Usa - $560</option>
+  <option value="canada">canada - $780</option>
+</select>
+
+<label for="passengers">Number of Passengers:</label>
+<input type="number" id="passengers" min="1" value="1">
+
+<button onclick="calculateBooking()">Book Now</button>
+
+<div class="output" id="bookingDetails"></div>
+
+
+<script src="./app.js"></script>
+
+
+</body>
+</html>
