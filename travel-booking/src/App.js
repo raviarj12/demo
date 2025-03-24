@@ -37,6 +37,8 @@ function App() {
           <option value="tokyo">Tokyo - $800</option>
           <option value="newyork">New York - $600</option>
           <option value="london">London - $450</option>
+          <option value="Usa">Usa - $560</option>
+          <option value="canada">canada - $780</option>
         </select>
 
         <label htmlFor="passengers">Number of Passengers:</label>
