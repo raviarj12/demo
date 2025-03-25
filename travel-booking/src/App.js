@@ -1,14 +1,7 @@
 import React, { useState } from "react";
 import "./App.css";
-import image from  "./C:\Users\Raviraj\Desktop\travelage\travel-ibk7fgrvtvhs7qzg.webp";
 
-function App() {
-  const myStyle ={
-    backgroundImage: 'img',
-    imageSize: '50xp',
-    imageRehate: 'rehate'
-    
-  }
+function App(){
   // State hooks to manage user input
   const [destination, setDestination] = useState("paris");
   const [passengers, setPassengers] = useState(1);
@@ -92,6 +85,9 @@ function App() {
     </div>
   );
 }
+
+
+
 
 export default App;
 
